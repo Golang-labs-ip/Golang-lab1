@@ -1,0 +1,24 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+li{
+    font-size: 45px;
+    text-align: center;
+}
+a{
+    display: block;
+    padding: 10px 145px;
+    background-color: #0077cc;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    border-radius: 5px;
+}
