@@ -9,6 +9,7 @@ import (
 )
 
 //Time ...
+
 type Time struct {
 	Hour    int `json:"hour"`
 	Minutes int `json:"min"`
