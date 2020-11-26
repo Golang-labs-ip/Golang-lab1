@@ -16,4 +16,4 @@ To run ***server.go*** file follow the next instrutions:
 8. Now you can discover what time is it now.
  
 SOME CHANGES
-
+Commit - 2
