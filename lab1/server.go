@@ -18,7 +18,7 @@ type Time struct {
 func main() {
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
 
-	http.HandleFunc("/", MainPage)
+	http.HandleFunc("/", mainPage)
 	http.HandleFunc("/online", online)
 	http.HandleFunc("/time", timePage)
 	http.ListenAndServe(":8795", nil)
@@ -44,7 +44,7 @@ func timePage(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("</ul>"))
 }
 
-func MainPage(w http.ResponseWriter, r *http.Request) {
+func mainPage(w http.ResponseWriter, r *http.Request) {
 	fp := path.Join("main.html")
 	tmpl, err := template.ParseFiles(fp)
 	if err != nil {
