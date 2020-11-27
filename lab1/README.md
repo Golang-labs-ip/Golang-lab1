@@ -15,5 +15,4 @@ To run ***server.go*** file follow the next instrutions:
 7. Open browser and type **localhost:8795**.
 8. Now you can discover what time is it now.
  
-COMMIT 1
-
+ytrewq
