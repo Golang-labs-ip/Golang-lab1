@@ -43,7 +43,6 @@ func timePage(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("</li>"))
 	w.Write([]byte("</ul>"))
 }
-
 func mainPage(w http.ResponseWriter, r *http.Request) {
 	fp := path.Join("main.html")
 	tmpl, err := template.ParseFiles(fp)
